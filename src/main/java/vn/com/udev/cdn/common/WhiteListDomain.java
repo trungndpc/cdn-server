@@ -8,7 +8,7 @@ public class WhiteListDomain {
     public static final List<String> DOMAINS = Arrays.asList("insee.com.vn", "cuahang.insee.udev.com.vn", "nhathau.insee.com.vn","admin-nhathau.insee.udev.com.vn", "admin.insee.udev.com.vn",
             "dev-admin-nhathau.insee.udev.com.vn", "conwood.insee.udev.com.vn", "admin-conwood.insee.udev.com.vn", "localhost", "knauf.udev.com.vn", "udev.com.vn");
 
-    public static final List<String> ORIGIN_ZALO_MINI_APP = Arrays.asList("https://h5.zdn.vn/", "zbrowser://h5.zdn.vn/", "zdn.vn", "h5.zdn.vn");
+    public static final List<String> ORIGIN_ZALO_MINI_APP = Arrays.asList("https://h5.zdn.vn/", "zbrowser://h5.zdn.vn/", "zdn.vn", "h5.zdn.vn", "http://localhost:8889", "http://localhost:8889/", "https://admin.udev.com.vn");
 
 
     public boolean hasWhitelist(String domain) {
